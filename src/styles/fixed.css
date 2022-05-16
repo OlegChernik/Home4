@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    min-height: 1300px;
+    position: relative;
+}
+._container{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid lightsalmon;
+    padding: 0 25px 25px;
+}
+
+/*HEADER========================================================================================*/
+
+.header{
+    width: 100%;
+    background: tomato;
+    padding: 20px 0;
+    position: fixed;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+
+/*PAGE========================================================================================*/
+
+.page{
+    padding-top:80px ;
+}
+.text{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
